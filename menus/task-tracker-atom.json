@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle task-tracker-atom",
+        "command": "task-tracker-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "task-tracker-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "task-tracker-atom:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

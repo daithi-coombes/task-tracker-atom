@@ -1,0 +1,19 @@
+{
+  "name": "task-tracker-atom",
+  "main": "./lib/task-tracker-atom",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "task-tracker-atom:toggle"
+  },
+  "repository": "https://github.com/atom/task-tracker-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "git-branch": "^1.0.0",
+    "request": "^2.81.0"
+  }
+}
